@@ -1,0 +1,56 @@
+header {
+    width: 100%;
+    height: 400px;
+    background: #2980b9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        hsla(210, 30%, 24%, 0.411),
+        hsla(204, 64%, 44%, 0.61)
+      ),
+      url(../media/perro0.jpg); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        hsla(210, 30%, 24%, 0.411),
+        hsla(204, 64%, 44%, 0.61)
+      ),
+      url(../media/perro0.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 64px;
+    
+}
+
+h2{
+    color: rgb(116, 8, 218);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #3f91c7;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  
+  .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
